@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>WOTH - Contato</title>
+</head>
+
+<style>
+    body {
+        color: #32689b;
+    }
+    .contato {
+        padding: 10px 20px;
+    }
+
+    .voltar {
+        text-decoration: none;
+        color: #ab59c4;
+    }
+
+    .rodape {
+        position: absolute;
+        bottom:0;
+        text-align: justify;
+        padding: 10px 20px;
+    }
+</style>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/wizard-hat.png" alt="logo">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="historia.html">Historia da empresa</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">Produtos</a>
+                    <div class="dropdown-content">
+                        <a href="notebooks.html">Notebooks</a>
+                        <a href="desktops.html">Desktops</a>
+                        <a href="perifericos.html">Periféricos</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contato">
+        <h1>Contato</h1>
+        <form action="notebooks.html">
+            <label>Nome</label><br>
+            <input type="text" placeholder="Digite seu nome aqui"><br>
+            <label>E-mail</label><br>
+            <input type="email" placeholder="...@gmail.com"
+            pattern=".+@gmail.com" size="30" required><br>
+            <label>Telefone</label><br>
+            <input type="tel" placeholder="99 99999-9999"
+            pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required><br>
+            <label>Categoria do produto</label><br>
+            <select >
+                <option value="notebooks">Notebooks</option>
+                <option value="desktops">Desktops</option>
+                <option value="perifericos">Periféricos</option>
+            </select><br>
+            <label>Assunto</label><br>
+            <input type="text" placeholder="Digite o assunto aqui"><br>
+            <label>Mensagem</label><br>
+            <textarea cols="30" rows="10"></textarea><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar campos</button><br><br>
+            <a class="voltar" href="index.html">Voltar</a>
+        </form>
+    </div>
+
+    <div class="rodape">
+        <p>Wizards of the Hardware</p>
+        <p>Telefone: 12 12345-1234</p>
+        <p>E-mail: woth@gmail.com</p>
+        <p>Bairro Legal, Rua Nice, Número 1234</p>
+    </footer>
+
+</body>
+</html>

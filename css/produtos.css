@@ -1,0 +1,47 @@
+.flex-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row-container>.card {
+    flex: 1 1 30%;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #00000033;
+    margin: 30px;
+    padding: 50px;
+}
+
+.card img {
+    width: 150px;
+    height: 100px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #00000033;
+}
+
+.preco {
+    float: right;
+    padding: 10px;
+}
+
+.preco-de {
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+.preco-por {
+    text-decoration: underline;
+    color: #008000;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.container {
+    padding: 2px 16px;
+}
