@@ -1,0 +1,22 @@
+body {
+    color: #32689b;
+}
+.contato {
+    padding: 10px 20px;
+}
+
+#alertas {
+    color: #ff0000;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #ab59c4;
+}
+
+.rodape {
+    position: absolute;
+    bottom:0;
+    text-align: justify;
+    padding: 10px 20px;
+}
